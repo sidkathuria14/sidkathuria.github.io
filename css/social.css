@@ -1,0 +1,231 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.container {
+  max-width: 1088px;
+  margin: 10px auto;
+  background: #f1f1f1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 2px solid #d8d8d8;
+}
+
+h1 {
+  font-size: 30px;
+  color: #297b9d;
+  text-transform: uppercase;
+  margin-top: 0;
+  position: relative;
+  display: block;
+}
+h1:after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #297b9d;
+  display: block;
+  margin-top: 5px;
+}
+
+.example-1 .share-wrapper {
+  list-style: none;
+  padding-left: 0;
+}
+.example-1 .share-wrapper li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.example-1 .share-wrapper li a, .example-1 .share-wrapper li a:visited {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  background: #f26444;
+  text-decoration: none;
+  padding-top: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  border-radius: 50%;
+}
+.example-1 .share-wrapper li a i, .example-1 .share-wrapper li a:visited i {
+  color: #FFF;
+  font-size: 24px;
+}
+.example-1 .share-wrapper li a:hover, .example-1 .share-wrapper li a:visited:hover {
+  -webkit-animation: bouncing-icon 1.5s linear infinite;
+  -moz-animation: bouncing-icon 1.5s linear infinite;
+  -ms-animation: bouncing-icon 1.5s linear infinite;
+  -o-animation: bouncing-icon 1.5s linear infinite;
+  animation: bouncing-icon 1.5s linear infinite;
+}
+.example-1 .share-wrapper li:last-child {
+  margin-right: 0;
+}
+
+.example-2 {
+  margin-left: -100px;
+  margin-top: 50px;
+}
+.example-2 h1 {
+  color: #21a0b6;
+}
+.example-2 h1:after {
+  background: #21a0b6;
+}
+.example-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+.example-2 ul li {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+}
+.example-2 ul li a, .example-2 ul li a:visited {
+  width: 44px;
+  height: 44px;
+  padding-top: 9px;
+  display: inline-block;
+  background: #f26444;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.example-2 ul li a i, .example-2 ul li a:visited i {
+  color: #FFF;
+  font-size: 24px;
+  moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.example-2 ul li a:hover, .example-2 ul li a:visited:hover {
+  moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background: #f0502c;
+  z-index: 2;
+}
+.example-2 ul li a:hover i, .example-2 ul li a:visited:hover i {
+  moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.example-2 ul li:last-child {
+  margin-right: 0;
+}
+
+@-webkit-keyframes bouncing-icon {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: -10px;
+  }
+  20% {
+    top: 0;
+  }
+  30% {
+    top: -10px;
+  }
+  40% {
+    top: 0;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-moz-keyframes bouncing-icon {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: -10px;
+  }
+  20% {
+    top: 0;
+  }
+  30% {
+    top: -10px;
+  }
+  40% {
+    top: 0;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-ms-keyframes bouncing-icon {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: -10px;
+  }
+  20% {
+    top: 0;
+  }
+  30% {
+    top: -10px;
+  }
+  40% {
+    top: 0;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-o-keyframes bouncing-icon {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: -10px;
+  }
+  20% {
+    top: 0;
+  }
+  30% {
+    top: -10px;
+  }
+  40% {
+    top: 0;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes bouncing-icon {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: -10px;
+  }
+  20% {
+    top: 0;
+  }
+  30% {
+    top: -10px;
+  }
+  40% {
+    top: 0;
+  }
+  100% {
+    top: 0;
+  }
+}
