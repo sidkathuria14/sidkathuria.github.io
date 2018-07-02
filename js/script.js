@@ -1,4 +1,5 @@
 function downloadURI(uri, name) {
+    console.log("resume button clicked")
     var link = document.createElement("a");
     link.download = name;
     link.href = uri;
