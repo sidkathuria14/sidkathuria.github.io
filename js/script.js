@@ -1,3 +1,18 @@
+function downloadURI(uri, name) {
+    var link = document.createElement("a");
+    link.download = name;
+    link.href = uri;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    delete link;
+  }
+
+  $('.buttonDownload').on('click',function(req,res){
+    downloadURI("data:pdf/html,HelloWorld!", "resume.pdf");
+
+  });
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
