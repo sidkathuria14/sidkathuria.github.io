@@ -30,6 +30,9 @@ body {
 
 
 #typewriter{
+  text-decoration: ;
+  text-decoration-style: solid;
+  font-style: italic;
   font-size: 40px;
 }
 .buttonDownload {
